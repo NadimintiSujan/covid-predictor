@@ -16,5 +16,9 @@ Users submit symptoms via a React form → backend receives JSON → model retur
 ## 🐳 Deployment
 
 - 'docker-compose up' to run locally
+
 - S3 hosts frontend static site
+  http://covid-predictor-frontend.s3-website.us-east-2.amazonaws.com
+  
 - EC2 runs backend in Docker container
+  http://3.133.129.70:5001/predict
